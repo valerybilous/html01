@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 lang="uk">Привіт Світ!</h1>
+    </header>
+    <main>
+        <img src="img/facepalm.jpg" alt="facepalm">
+        
+        <section>
+            <h2>Tables</h2>    
+            <table border="1">
+                <tr>
+                    <th></th><th>Product 1</th><th>Product 2</th>
+                </tr>
+                <tr>
+                    <th>Quarter I</th><td>1</td><td>2</td>
+                </tr>
+                <tr>
+                    <th>Quarter II</th><td>3</td><td>4</td>
+                </tr>
+                <tr>
+                    <th>Total:</th><td colspan="2">10</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section>
+            <h2>Forms</h2>
+            <form method="POST" action="https://formspree.io/valery.bilous@gmail.com">
+                <label for="client-name">Client Name:</label>
+                <input type="text" name="client-name" placeholder="Client Name"
+                 id="client-name" required>
+                <br> 
+                <label>Email address:
+                    <input type="email" name="client-email"
+                     placeholder="Client Email" required>
+                </label> 
+                <br>
+                <label>Gender:</label>
+                <label>
+                    <input type="radio" name="gender" value="male">Male
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">Female
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other" checked>Other
+                </label>
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h3>Contacts</h3>
+    </footer>
+</body>
+
+
+</html>
